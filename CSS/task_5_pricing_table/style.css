@@ -1,0 +1,27 @@
+/* q5.css */
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #699aca;
+    padding: 2rem
+}
+
+.pricing {
+    display: flex;
+    gap: 1rem;
+    align-items: stretch
+}
+
+.plan {
+    flex: 1;
+    background: rgb(100, 88, 88);
+    padding: 1.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.25s ease, background 0.25s ease;
+}
